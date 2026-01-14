@@ -11,7 +11,7 @@ describe('GET /tasks', () => {
 
 describe('GET /', () => {
   it('should return Hello TypeScript + Express GEEENIAAAAALLLLL!', async () => {
-    const response = await request(app).get('/tasks');
+    const response = await request(app).get('/');
     expect(response.status).toBe(200);
     expect(response.text).toBe("'Hello TypeScript + Express GEEENIAAAAALLLLL!'");
   })
