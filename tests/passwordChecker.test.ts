@@ -9,3 +9,8 @@ test("abc is not a valid password", () => {
     const pw = "abc";
     expect(validatePassword(pw)).toBe(false);
 })
+
+test("1817373!8 is not a valid password", () => {
+    const pw = "1817373!8";
+    expect(validatePassword(pw)).toBe(false);
+})
