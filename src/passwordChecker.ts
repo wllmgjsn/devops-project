@@ -1,8 +1,4 @@
-const validatePassword = (password) => {
-    if(typeof password !== "string"){
-        return false;
-    }
-
+const validatePassword = (password : string) => {
     const specialCharRegex = /[^a-zA-Z0-9]/;
     const digitRegex = /[0-9]/;
 
@@ -14,4 +10,4 @@ const validatePassword = (password) => {
     );
 }
 
-module.exports = validatePassword;
+export default validatePassword;

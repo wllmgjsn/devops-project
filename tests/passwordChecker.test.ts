@@ -1,5 +1,4 @@
-import validatePassword from "../src/passwordChecker";
-
+import validatePassword from '../src/passwordChecker'
 
 test("Choufleur1! is a valid password", () => {
     const pw = "Choufleur1!";
